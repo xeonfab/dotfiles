@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -45,3 +46,6 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+[user]
+	email = fabien.riou92@gmail.com
+	name = Fabien Riou
